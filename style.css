@@ -1,0 +1,175 @@
+body {
+    background-image: url(https://i.gifer.com/J4o.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   color: #000;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+#timer{
+   
+
+    background-color: black;
+    color: #f8f9fa;
+}
+.container{
+     
+  
+    width: 650PX;
+    background-color: #f8f9fa4f;
+    color: #000;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+label{
+  font-weight: bolder;
+}
+
+
+/* From Uiverse.io by mobinkakei */ 
+.cta {
+    display: flex;
+    padding: 11px 33px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background: #6225e6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+    border: none;
+    cursor: pointer;
+    margin-left: 35%;
+    
+    
+  }
+  
+  .cta:focus {
+    outline: none;
+  }
+  
+  .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #fbc638;
+  }
+  
+  .cta .second {
+    transition: 0.5s;
+    margin-right: 0px;
+  }
+  
+  .cta:hover .second {
+    transition: 0.5s;
+    margin-right: 45px;
+  }
+  
+  .span {
+    transform: skewX(15deg);
+  }
+  
+  .second {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+  
+  .one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+  }
+  
+  .two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+  }
+  
+  .cta:hover .three {
+    animation: color_anim 1s infinite 0.2s;
+  }
+  
+  .cta:hover .one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+  }
+  
+  .cta:hover .two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+  }
+  
+  @keyframes color_anim {
+    0% {
+      fill: white;
+    }
+  
+    50% {
+      fill: #fbc638;
+    }
+  
+    100% {
+      fill: white;
+    }
+  }
+
+  
+
+  /* From Uiverse.io by Botwe-Felix5820 */ 
+  .otherBtn {
+    height: 2.8em;
+    width: 9em;
+    background: transparent;
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+    border: 2px solid #016dd9;
+    outline: none;
+    color: #016dd9;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .otherBtn:hover {
+    background: #016dd9;
+    color: #ffffff;
+    animation: squeeze3124 0.9s both;
+  }
+  
+  @keyframes squeeze3124 {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  
