@@ -16,13 +16,14 @@ body {
      
   
     width: 650PX;
-    background-color: #f8f9fa4f;
+    background-color: #f8f9fa63;
+    box-shadow: 0px 0px 45px rgb(17, 118, 201) ;
     color: #000;
     border-radius: 8px;
     padding: 20px;
     
 }
-label{
+.form-label{
   font-weight: bolder;
 }
 

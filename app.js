@@ -237,8 +237,8 @@ function loadQuestions() {
                     <p><strong>Q${index + 1}: ${q.question}</strong></p>
                     ${q.options.map(option => `
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="question${index}" value="${option}">
-                            <label class="form-check-label">${option}</label>
+                            <input class="form-check-input"  type="radio" name="question${index}" value="${option}">
+                            <label class="form-check-label" >${option}</label>
                         </div>
                     `).join('')}
                 `;
