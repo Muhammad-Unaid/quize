@@ -5,6 +5,9 @@ body {
    color: #000;
     font-family: Arial, sans-serif;
     display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
 }
 #timer{
    

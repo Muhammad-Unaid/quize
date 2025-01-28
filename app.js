@@ -198,6 +198,8 @@ document.getElementById('submit-form').addEventListener('click', () => {
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
+            color: '#ffff',
+            background: "#fff url(https://media.istockphoto.com/id/1392420739/vector/led-screen-dot-rgb-background-television-vector-stock-illustration.jpg?s=612x612&w=0&k=20&c=cepLXMMT5w1qW8o4o47V__AUtc61L34CTa5f_Xo5dJ4=) no-repeat ",
             text: 'Please fill out all fields!'
         });
         return;
@@ -264,6 +266,9 @@ function submitQuiz() {
     Swal.fire({
         icon: 'success',
         title: 'Quiz Completed!',
+        color: "#black",
+        background: "#fff url(https://png.pngtree.com/png-vector/20220519/ourmid/pngtree-abstract-shiny-spectrum-multicolor-wave-design-element-on-white-background-png-image_4645761.png) no-repeat ",
+        
         text: `You scored ${score} out of ${questions.length}`
     });
 }
